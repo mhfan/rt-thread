@@ -32,6 +32,7 @@
 
 #define BAUD_RATE_4800                  4800
 #define BAUD_RATE_9600                  9600
+#define BAUD_RATE_38400                 38400
 #define BAUD_RATE_115200                115200
 
 #define DATA_BITS_5                     5
