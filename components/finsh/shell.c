@@ -87,7 +87,7 @@ const char* finsh_get_prompt()
 	
 	/* get current working directory */
 	getcwd(&finsh_prompt[6], RT_CONSOLEBUF_SIZE - 8);
-	strcat(finsh_prompt, ">");
+	strcat(finsh_prompt, "> ");
 
 	return finsh_prompt;
 }

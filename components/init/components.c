@@ -77,7 +77,7 @@ void rt_components_board_init(void)
  */
 void rt_components_init(void)
 {
-#ifndef _MSC_VER
+#if 0//ndef _MSC_VER	// XXX:
 #if RT_DEBUG_INIT
 	int result;
 	const struct rt_init_desc *desc;
